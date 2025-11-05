@@ -3,7 +3,7 @@ name=PE3D Downloader
 qgisMinimumVersion=3.28
 description=Baixa, descompacta e carrega dados do portal PE3D (Pernambuco) por município.
 version=1.0.0
-author=Weverton Heráclito (@Weraclitof)
+author=Weverton Heráclito (https://github.com/weraclitof)
 email=weverton.heraclito@ufpe.br
 about=Este plugin automatiza o fluxo de trabalho de aquisição de dados do portal Pernambuco Tridimensional (PE3D). Ele permite o login seguro, seleção por município e download paralelo otimizado, com descompactação e carregamento automático dos rasters no QGIS.
 
