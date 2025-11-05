@@ -1,47 +1,26 @@
-# This file contains metadata for your plugin.
-
-# This file should be included when you package your plugin.# Mandatory items:
-
 [general]
 name=PE3D Downloader
-qgisMinimumVersion=3.0
-description=Plugin para baixar dados do portal Pernambuco Tridimensional diretamente no QGIS.
+qgisMinimumVersion=3.28
+description=Baixa, descompacta e carrega dados do portal PE3D (Pernambuco) por município.
 version=1.0.0
 author=Weverton Heráclito (@Weraclitof)
 email=weverton.heraclito@ufpe.br
+about=Este plugin automatiza o fluxo de trabalho de aquisição de dados do portal Pernambuco Tridimensional (PE3D). Ele permite o login seguro, seleção por município e download paralelo otimizado, com descompactação e carregamento automático dos rasters no QGIS.
 
-about= 
+# Links do Projeto (Substitua pelo seu link do GitHub)
+tracker=[https://github.com/weraclitof/qgis-pe3d-downloader]/issues
+repository=[https://github.com/weraclitof/qgis-pe3d-downloader]
+homepage=[https://github.com/weraclitof/qgis-pe3d-downloader]
 
-tracker=http://bugs
-repository=http://repo
-# End of mandatory metadata
-
-# Recommended items:
-
-hasProcessingProvider=no
-# Uncomment the following line and add your changelog:
-# changelog=
-
-# Tags are comma separated with spaces allowed
-tags=python
-
-homepage=http://homepage
-category=Plugins
+# Categorização
+tags=brasil, pernambuco, pe3d, raster, download, web, automacao
+category=Web
 icon=icon.png
-# experimental flag
-experimental=True
 
-# deprecated flag (applies to the whole plugin, not just a single version)
+# Status da Versão
+experimental=False
 deprecated=False
 
-# Since QGIS 3.8, a comma separated list of plugins to be installed
-# (or upgraded) can be specified.
-# Check the documentation for more information.
-# plugin_dependencies=
-
-Category of the plugin: Raster, Vector, Database or Web
-# category=
-
-# If the plugin can run on QGIS Server.
+# Outras informações
+hasProcessingProvider=no
 server=False
-
